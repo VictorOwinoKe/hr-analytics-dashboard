@@ -332,4 +332,4 @@ df['termdate'] = pd.to_datetime(df['termdate']).dt.date
 print(df)
 
 # Save to CSV
-df.to_csv('HumanResources.csv', index=False)
+df.to_csv('../data/HumanResources.csv', index=False)
